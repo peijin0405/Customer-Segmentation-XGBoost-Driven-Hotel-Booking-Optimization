@@ -1,41 +1,38 @@
-## Customer Behavior Segmentation and XGBoost-Driven Predictive Modeling for Hotel Booking Optimization
+# Customer Behavior Segmentation and XGBoost-Driven Predictive Modeling for Hotel Booking Optimization
 
-#### Project Overview
+### Project Overview
 This project focuses on applying advanced machine learning techniques, specifically XGBoost, to predict user behavior, including booking and churn, within the context of an online travel agency (OTA). Additionally, the project segments customers into distinct groups based on behavior and purchasing patterns using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering. The goal is to derive insights into customer behavior and develop data-driven strategies for optimizing hotel booking processes and personalized marketing.
 
 #### Overall Workflow Summary:
-- Data Import and Preprocessing: This includes handling outliers, missing values, and data standardization.
-- Feature Engineering: Analyzing feature correlations and applying PCA for dimensionality reduction.
-- Model Training and Evaluation: Using XGBoost to train and predict based on important features.
-- RFM Model Analysis: Segmenting customers using the RFM model.
-- Customer Segmentation and Profiling: Using K-Means clustering and heatmaps to visualize the characteristics of different user groups.
-- Customer Analysis: Developing personalized marketing strategies for different customer segments.
+- **Data Import and Preprocessing**: This includes handling outliers, missing values, and data standardization.
+- **Feature Engineering**: Analyzing feature correlations and applying PCA for dimensionality reduction.
+- **Model Training and Evaluation**: Using XGBoost to train and predict based on important features.
+- **RFM Model Analysis**: Segmenting customers using the RFM model.
+- **Customer Segmentation and Profiling**: Using K-Means clustering and heatmaps to visualize the characteristics of different user groups.
+- **Customer Analysis**: Developing personalized marketing strategies for different customer segments.
 
 
 ### XGBoost Model & Data
 
-XGBoost Website: https://xgboost.readthedocs.io
-
-XGBoost is a highly efficient and scalable machine learning algorithm used for predictive analytics in this project. It is specifically leveraged to predict user behavior, such as booking and churn, within the OTA context.
+[XGBoost](https://xgboost.readthedocs.io) is a highly efficient and scalable machine learning algorithm used for predictive analytics in this project. It is specifically leveraged to predict user behavior, such as booking and churn, within the OTA context.
 
 To install the XGBoost model, you can use pip by executing the following command: `！pip install xgboost`
 
 The data used come from an online travel agency(OTA), and the XGBoost model was employed to predict user order and user churn. Key features include user engagement metrics (e.g., the number of hotel visits, booking frequency, cancellation rates), financial aspects (e.g., consumption level, spending amount), and temporal factors (e.g., time since the last booking or visit). This dataset enables a comprehensive analysis of customer behavior and purchasing patterns, which forms the basis for customer segmentation and predictive modeling.
 
-You can access the dataset and its description through this https://drive.google.com/drive/folders/1D3boa4qNm-v0w3xFEaV3aWexcZudLFfc?usp=sharing
+You can access the dataset and its description through this [Google Drive Link](https://drive.google.com/drive/folders/1D3boa4qNm-v0w3xFEaV3aWexcZudLFfc?usp=sharing).
 
 
 ### Feature Engineering
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 45%; text-align: center;">
-    <h3>Hotel Info Correlation Heatmap</h3>
-    <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/64a9e404-1c8b-47d6-b6b8-ce13588abbd6" alt="Hotel Info Correlation Heatmap" style="width: 100%;"/>
-  </div>
-  <div style="width: 45%; text-align: center;">
-    <h3>User Feature Correlation Heatmap</h3>
-    <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/de2db495-b104-4245-bb2e-e3278b387d8a" alt="User Feature Correlation Heatmap" style="width: 100%;"/>
-  </div>
+<div style="text-align: center;">
+  <h3>Hotel Info Correlation Heatmap</h3>
+  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/64a9e404-1c8b-47d6-b6b8-ce13588abbd6" alt="Hotel Info Correlation Heatmap" style="width: 50%;"/>
+</div>
+
+<div style="text-align: center;">
+  <h3>User Feature Correlation Heatmap</h3>
+  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/de2db495-b104-4245-bb2e-e3278b387d8a" alt="User Feature Correlation Heatmap" style="width: 50%;"/>
 </div>
 
 These heatmaps show the correlations between hotel information and user features, which were used to guide the feature selection process. Analyzing these correlations helps in identifying key features that contribute most to user behavior predictions.
@@ -119,14 +116,10 @@ Key Insights:
 
 The following heatmap shows the characteristics of three user groups segmented using K-Means clustering:
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 45%; text-align: center;">
-    <img src="https://github.com/user-attachments/assets/897d9f39-da2b-457b-b630-30834ce86536" alt="User Profile Heatmap" style="width: 100%;"/>
-  </div>
-  <div style="width: 45%; text-align: center;">
-    <img src="https://github.com/user-attachments/assets/c43da44a-07e6-4504-b247-3934acb3253a" alt="User Profile" style="width: 100%;"/>
-  </div>
-</div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/897d9f39-da2b-457b-b630-30834ce86536" width="400" alt="User Profile Heatmap"/>
+  <img src="https://github.com/user-attachments/assets/c43da44a-07e6-4504-b247-3934acb3253a" width="400" alt="User Profile"/>
+</p>
 
 #### Heatmap Interpretation
 
