@@ -1,4 +1,4 @@
-# Customer Behavior Segmentation & XGBoost-Driven Predictive Modeling for Hotel Booking Optimization
+# Customer Segmentation & XGBoost-Driven Hotel Booking Optimization
 
 ### Project Overview
 This project leverages advanced machine learning techniques, specifically **XGBoost**, to predict user behavior such as booking and churn within the context of an online travel agency (OTA). Additionally, **Principal Component Analysis (PCA)** is applied for dimensionality reduction, simplifying the feature space while retaining the most important information. The project segments customers into distinct groups based on their behavior and purchasing patterns using RFM (Recency, Frequency, Monetary) analysis and **K-Means clustering**. The goal is to derive insights into customer behavior and develop data-driven strategies for optimizing hotel booking processes and personalized marketing.
