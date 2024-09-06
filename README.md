@@ -1,4 +1,4 @@
-# XGboost
+## Customer Behavior Segmentation and XGBoost-Driven Predictive Modeling for Hotel Booking Optimization
 
 #### Overall Workflow Summary:
 - Data Import and Preprocessing: This includes handling outliers, missing values, and data standardization.
@@ -9,10 +9,8 @@
 - Customer Analysis: Developing personalized marketing strategies for different customer segments.
 
 
-帮我完善一下该研究在数据来源和研究目的上的理解
 
 
-# XGBoost Model for Online Order and User Churn Prediction
 
 ## XGBoost Model & Data
 
@@ -20,7 +18,8 @@ XGBoost Website: https://xgboost.readthedocs.io
 
 To install the XGBoost model, we can use the pip installation method, for example, in the Windows operating system, Win+R shortcut keys to bring up the run box, enter cmd, enter the code in the pop-up interface and run: `！pip install xgboost`
 
-The data used come from an online travel agency(OTA), and the XGBoost model was employed to predict user order and user churn.
+The data used come from an online travel agency(OTA), and the XGBoost model was employed to predict user order and user churn. Key features include user engagement metrics (e.g., the number of hotel visits, booking frequency, cancellation rates), financial aspects (e.g., consumption level, spending amount), and temporal factors (e.g., time since the last booking or visit). This dataset enables a comprehensive analysis of customer behavior and purchasing patterns, which forms the basis for customer segmentation and predictive modeling.
+
 Data and Data Description Catalog of **XGBoost for User Churn Prediction** is accessible through this link: https://drive.google.com/drive/folders/1D3boa4qNm-v0w3xFEaV3aWexcZudLFfc?usp=sharing
 
 
