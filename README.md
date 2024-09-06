@@ -1,7 +1,7 @@
 # Customer Behavior Segmentation and XGBoost-Driven Predictive Modeling for Hotel Booking Optimization
 
 ### Project Overview
-This project focuses on applying advanced machine learning techniques, specifically XGBoost, to predict user behavior, including booking and churn, within the context of an online travel agency (OTA). Additionally, the project segments customers into distinct groups based on behavior and purchasing patterns using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering. The goal is to derive insights into customer behavior and develop data-driven strategies for optimizing hotel booking processes and personalized marketing.
+This project focuses on applying advanced machine learning techniques, specifically **XGBoost**, to predict user behavior, including booking and churn, within the context of an online travel agency (OTA). Additionally, the project segments customers into distinct groups based on behavior and purchasing patterns using RFM (Recency, Frequency, Monetary) analysis and **K-Means clustering**. The goal is to derive insights into customer behavior and develop data-driven strategies for optimizing hotel booking processes and personalized marketing.
 
 #### Overall Workflow Summary:
 - **Data Import and Preprocessing**: This includes handling outliers, missing values, and data standardization.
@@ -25,15 +25,10 @@ You can access the dataset and its description through this [Google Drive Link](
 
 ### Feature Engineering
 
-<div style="text-align: center;">
-  <h3>Hotel Info Correlation Heatmap</h3>
-  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/64a9e404-1c8b-47d6-b6b8-ce13588abbd6" alt="Hotel Info Correlation Heatmap" style="width: 50%;"/>
-</div>
+![Hotel Info Correlation Heatmap](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/64a9e404-1c8b-47d6-b6b8-ce13588abbd6)
 
-<div style="text-align: center;">
-  <h3>User Feature Correlation Heatmap</h3>
-  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/de2db495-b104-4245-bb2e-e3278b387d8a" alt="User Feature Correlation Heatmap" style="width: 50%;"/>
-</div>
+![User Feature Correlation Heatmap](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/de2db495-b104-4245-bb2e-e3278b387d8a)
+
 
 These heatmaps show the correlations between hotel information and user features, which were used to guide the feature selection process. Analyzing these correlations helps in identifying key features that contribute most to user behavior predictions.
 
@@ -68,9 +63,8 @@ The RFM (Recency, Frequency, Monetary) model is used to classify customers into 
 These values allow for the identification of user groups, which are then used to tailor customer engagement strategies.
 
 ### Customer Segmentation and Profiling
-![Customer Segmentation](https://github.com/user-attachments/assets/a5794a91-2d75-4380-bdcf-45a108a79e95)
 
-Customer Segmentation Analysis
+![Customer Segmentation](https://github.com/user-attachments/assets/a5794a91-2d75-4380-bdcf-45a108a79e95)
 
 This donut chart visualizes customer segmentation based on their RFM (Recency, Frequency, Monetary) scores. Below is the interpretation of each segment:
 
@@ -128,7 +122,9 @@ Heatmap Interpretation
 * Group 1: Lower cancellation rates and moderate consumption levels, representing stable customers.
 * Group 2: High consumption but higher cancellation rates, with a sensitivity to pricing.
 
-### Analysis of Top-Tier Customers
+### Customer Analysis
+
+**Analysis of Top-Tier Customers**
 
 Top-tier customers are characterized by their high consumption levels and preference for premium, high-quality hotels. They exhibit both high visit and booking frequencies, and tend to make quick decisions with shorter booking windows. Despite their fast decision-making (evidenced by fewer average daily visits), they also demonstrate a high order cancellation rate. This group is heavily associated with business-related travel, often booking at the last minute and cancelling when necessary due to their flexible travel schedules.
 
@@ -150,8 +146,6 @@ To effectively engage moderate-value customers, the following strategies should 
 * Regularly send hotel information two to three weeks prior to holidays;
 * Promote high-end hotels and local travel destinations to capture their interest, as they are more likely to travel;
 * Collaborate with hotel agents in tourist areas to offer personalized recommendations, focusing on more affordable hotel options to align with their preferences.
-
-
 
 **Analysis of Entry-Level Customers**
 
