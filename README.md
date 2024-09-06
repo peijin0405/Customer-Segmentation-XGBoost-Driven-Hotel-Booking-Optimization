@@ -97,8 +97,10 @@ Key Insights:
 ### User Profile Heatmap
 
 <p align="center">
-  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/64a9e404-1c8b-47d6-b6b8-ce13588abbd6" width="400" />
-  <img src="https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/de2db495-b104-4245-bb2e-e3278b387d8a" width="400" /> 
+  <img src="![User Profile Heatmap](https://github.com/user-attachments/assets/897d9f39-da2b-457b-b630-30834ce86536)
+" width="400" />
+  <img src="![User Profile](https://github.com/user-attachments/assets/c43da44a-07e6-4504-b247-3934acb3253a)
+" width="400" /> 
 </p>
 
 #### Heatmap Interpretation
