@@ -42,34 +42,6 @@ Key steps in the modeling process include:
 - Performance Evaluation: The model’s performance is measured using metrics like AUC (Area Under the Curve) and accuracy to ensure the predictions are reliable.
 - Feature Importance: The model provides insight into which features most significantly impact predictions, informing business decisions and customer behavior analysis.
 
-**XGBoost Parameter Settings**:
-
-```python
-params = {
-    'booster':'gbtree', 
-    'objective': 'binary:logistic', 
-    'eval_metric': 'auc',
-    'max_depth':8, 
-    'gamma':0, 
-    'lambda':2, 
-    'subsample':0.7, 
-    'colsample_bytree':0.8,
-    'min_child_weight':3, 
-    'eta': 0.2, 
-    'nthread':8, 
-    'verbosity':0}
-
-- **`booster`**: Set to `gbtree`, which uses decision tree-based models, the most common type in XGBoost.
-- **`objective`**: Set to `binary:logistic`, indicating this is a binary classification problem with output as 0 or 1.
-- **`eval_metric`**: The evaluation metric is set to `auc` (Area Under the Curve). AUC measures the model's ability to classify positive and negative samples, with higher values indicating better performance.
-- **`max_depth`**: The maximum depth of each tree is set to 8, controlling the model's complexity and preventing overfitting.
-- **`gamma`** and **`lambda`**: These parameters control regularization to prevent overfitting.
-- **`subsample`** and **`colsample_bytree`**: These parameters control the proportion of samples and features used for each tree. Lower values help prevent overfitting.
-- **`eta`**: The learning rate is set to 0.2, which controls the step size during iteration to prevent the model from converging too quickly.
-- **`nthread`**: Set to 8, allowing the model to use 8 threads to speed up training.
-- **`verbosity`**: Set to 0 to suppress output during the training process.
-
-
 #### Feature Importance Chart
 ![Feature Importance Chart](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/9b8906d1-cd87-4d10-974e-312997c1431d)
 
