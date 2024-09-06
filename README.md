@@ -58,7 +58,6 @@ params = {
     'eta': 0.2, 
     'nthread':8, 
     'verbosity':0}
-```python
 
 - **`booster`**: Set to `gbtree`, which uses decision tree-based models, the most common type in XGBoost.
 - **`objective`**: Set to `binary:logistic`, indicating this is a binary classification problem with output as 0 or 1.
