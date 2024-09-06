@@ -36,7 +36,7 @@ These heatmaps show the correlations between hotel information and user features
 
 ### Model Training and Evaluation
 
-#### XGBoost Model Overview:：
+#### XGBoost Model Overview:
 In this project, XGBoost is employed as a classification model to predict user behavior (e.g., booking, order cancellations). It offers robust performance by efficiently handling large datasets and focusing on the most important features.
 
 Key steps in the modeling process include:
