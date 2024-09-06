@@ -25,8 +25,10 @@ You can access the dataset and its description through this [Google Drive Link](
 
 ### Feature Engineering
 
+### Hotel Info Correlation Heatmap
 ![Hotel Info Correlation Heatmap](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/64a9e404-1c8b-47d6-b6b8-ce13588abbd6)
 
+### User Feature Correlation Heatmap
 ![User Feature Correlation Heatmap](https://github.com/peijin0405/ML-XGBoostModel-for-Deal-and-User-Churn-Forecast/assets/89746479/de2db495-b104-4245-bb2e-e3278b387d8a)
 
 
@@ -62,8 +64,7 @@ The RFM (Recency, Frequency, Monetary) model is used to classify customers into 
 
 These values allow for the identification of user groups, which are then used to tailor customer engagement strategies.
 
-### Customer Segmentation and Profiling
-
+#### Customer Segmentation and Profiling
 ![Customer Segmentation](https://github.com/user-attachments/assets/a5794a91-2d75-4380-bdcf-45a108a79e95)
 
 This donut chart visualizes customer segmentation based on their RFM (Recency, Frequency, Monetary) scores. Below is the interpretation of each segment:
